@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    style="@style/AppTheme">
-    <TextView android:id="@+id/text1" android:layout_width="fill_parent" android:text="LoginName"
-        android:layout_height="wrap_content">
-    </TextView>
-</LinearLayout>
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff504F5D"
+    android:orientation="vertical" >
+
+        <!-- login title -->
+
+        <include
+            android:id="@+id/layout_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/layout_header" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:baselineAligned="true"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+        </LinearLayout>
+
+    </LinearLayout>

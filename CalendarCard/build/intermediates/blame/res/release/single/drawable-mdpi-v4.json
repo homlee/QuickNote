@@ -190,9 +190,5 @@
     {
         "merged": "D:\\AndroidStudio\\AndroidStudioProjects\\QuickNote\\CalendarCard\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
         "source": "D:\\AndroidStudio\\AndroidStudioProjects\\QuickNote\\CalendarCard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\AndroidStudioProjects\\calendar-card-sample\\calendarcard\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\ic_launcher.png",
-        "source": "D:\\AndroidStudio\\AndroidStudioProjects\\calendar-card-sample\\calendarcard\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     }
 ]

@@ -48,10 +48,6 @@
         "source": "D:\\AndroidStudio\\AndroidStudioProjects\\QuickNote\\CalendarCard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\AndroidStudioProjects\\calendar-card-sample\\calendarcard\\build\\intermediates\\res\\merged\\release\\drawable\\card_item_bg.xml",
-        "source": "D:\\AndroidStudio\\AndroidStudioProjects\\calendar-card-sample\\calendarcard\\src\\main\\res\\drawable\\card_item_bg.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\AndroidStudioProjects\\QuickNote\\CalendarCard\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
         "source": "D:\\AndroidStudio\\AndroidStudioProjects\\QuickNote\\CalendarCard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_text_cursor_material.xml"
     },
@@ -66,10 +62,6 @@
     {
         "merged": "D:\\AndroidStudio\\AndroidStudioProjects\\QuickNote\\CalendarCard\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "D:\\AndroidStudio\\AndroidStudioProjects\\QuickNote\\CalendarCard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\AndroidStudioProjects\\calendar-card-sample\\calendarcard\\build\\intermediates\\res\\merged\\release\\drawable\\card_grid_bg.xml",
-        "source": "D:\\AndroidStudio\\AndroidStudioProjects\\calendar-card-sample\\calendarcard\\src\\main\\res\\drawable\\card_grid_bg.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\AndroidStudioProjects\\QuickNote\\CalendarCard\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",

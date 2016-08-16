@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <com.omnicare.trader.widget.MyHeadTitle
+        android:id="@+id/layout_headTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/normal_header_height"
+        android:background="@drawable/phonetitlebar_bg" >
+
+        <Button
+            android:id="@+id/button_headback"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/mm_title_back"
+            android:text="@string/Back"
+            android:textColor="#fff"
+            android:textSize="@dimen/title_btn_font" />
+
+        <TextView
+            android:id="@+id/text_title"
+            style="@style/activity_title_text" />
+
+        <Button
+            android:id="@+id/button_right"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/mm_title_btn"
+            android:gravity="center"
+            android:text="@string/Confirm"
+            android:textColor="#fff"
+            android:textSize="@dimen/titlebtn_font"
+            android:visibility="invisible" />
+
+
+    </com.omnicare.trader.widget.MyHeadTitle>
+
+</LinearLayout>

@@ -23,7 +23,8 @@
         <com.wt.calendarcard.CalendarCard
             android:id="@+id/calendarCard1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            style="?attr/calendarCardStyle"/>
 
         <TextView
             android:id="@+id/textView2"
