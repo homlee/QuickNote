@@ -1,5 +1,12 @@
 package com.homlee.utils;
 
+import android.content.Context;
+import android.content.res.AssetManager;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+
 /**
  * Created by homlee on 8/11/2016.
  */
@@ -20,7 +27,7 @@ public class MyFilesHelper {
 
     public static InputStream getAssetFile(String fileName) {
         AssetManager am = null;
-        am = TraderApplication.mTradeApi.mAppContext.getAssets();
+        am = App.mTradeApi.mAppContext.getAssets();
         InputStream is = null;
         try {
             is = am.open(fileName);

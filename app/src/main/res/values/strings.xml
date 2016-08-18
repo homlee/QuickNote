@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">QuickNote</string>
     <string name="confirm">Confirm</string>
+    <string name="return_back">Back</string>
 </resources>

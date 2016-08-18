@@ -6,5 +6,5 @@
     <dimen name="normal_height">64dp</dimen>
     <dimen name="title_font">22sp</dimen>
     <dimen name="title_btn_font">16sp</dimen>
-
+    <dimen name="normal_header_height">16sp</dimen>
 </resources>
