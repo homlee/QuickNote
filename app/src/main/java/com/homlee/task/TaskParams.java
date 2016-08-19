@@ -1,10 +1,8 @@
 package com.homlee.task;
 
-import java.util.HashMap;
-
 import org.json.JSONException;
 
-import com.omnicare.trader.TraderException;
+import java.util.HashMap;
 
 /**
  * 
@@ -36,11 +34,11 @@ public class TaskParams {
 	 * @param key
 	 *            A key string.
 	 * @return The truth.
-	 * @throws TraderException
+	 * @throws TaskException
 	 *             if the value is not a Boolean or the String "true" or
 	 *             "false".
 	 */
-	public boolean getBoolean(String key) throws TraderException {
+	public boolean getBoolean(String key) throws TaskException {
 		Object object = get(key);
 		if (object.equals(Boolean.FALSE)
 				|| (object instanceof String && ((String) object)
@@ -51,7 +49,7 @@ public class TaskParams {
 						.equalsIgnoreCase("true"))) {
 			return true;
 		}
-		throw new TraderException(key + " is not a Boolean.");
+		throw new TaskException(key + " is not a Boolean.");
 	}
 
 	/**
@@ -60,17 +58,17 @@ public class TaskParams {
 	 * @param key
 	 *            A key string.
 	 * @return The numeric value.
-	 * @throws TraderException
+	 * @throws TaskException
 	 *             if the key is not found or if the value is not a Number
 	 *             object and cannot be converted to a number.
 	 */
-	public double getDouble(String key) throws TraderException {
+	public double getDouble(String key) throws TaskException {
 		Object object = get(key);
 		try {
 			return object instanceof Number ? ((Number) object).doubleValue()
 					: Double.parseDouble((String) object);
 		} catch (Exception e) {
-			throw new TraderException(key + " is not a number.");
+			throw new TaskException(key + " is not a number.");
 		}
 	}
 
@@ -80,17 +78,17 @@ public class TaskParams {
 	 * @param key
 	 *            A key string.
 	 * @return The integer value.
-	 * @throws TraderException
+	 * @throws TaskException
 	 *             if the key is not found or if the value cannot be converted
 	 *             to an integer.
 	 */
-	public int getInt(String key) throws TraderException {
+	public int getInt(String key) throws TaskException {
 		Object object = get(key);
 		try {
 			return object instanceof Number ? ((Number) object).intValue()
 					: Integer.parseInt((String) object);
 		} catch (Exception e) {
-			throw new TraderException(key + " is not an int.");
+			throw new TaskException(key + " is not an int.");
 		}
 	}
 
@@ -103,7 +101,7 @@ public class TaskParams {
 	 * @throws JSONException
 	 *             if the key is not found.
 	 */
-	public String getString(String key) throws TraderException {
+	public String getString(String key) throws TaskException {
 		Object object = get(key);
 		return object == null ? null : object.toString();
 	}

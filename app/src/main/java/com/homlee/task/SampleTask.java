@@ -2,7 +2,7 @@ package com.homlee.task;
 
 import android.content.Context;
 
-import com.omnicare.trader.R;
+import com.homlee.quicknote.R;
 
 public abstract class SampleTask extends GenericTask{
 
@@ -34,7 +34,7 @@ public abstract class SampleTask extends GenericTask{
 			@Override
 			public void onPreExecute(GenericTask task) {
 				TaskFeedback.getInstance(TaskFeedback.DIALOG_MODE, mContext)
-				.start(mContext.getString(R.string.str_please_wait));
+				.start(mContext.getString(R.string.please_waiting));
 				
 			}
 
